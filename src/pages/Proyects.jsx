@@ -18,9 +18,9 @@ export const Proyects = ()=>{
             <div ref={ref} className={`flex flex-col items-center transition-all duration-1000 transform ${
         inView ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-10'
       }`}>
-                <ProyectContainer title="Task ToDo" img="tasktodo" text="El objetivo es ayudar a organizar y priorizar tareas, gracias a esto nace Task toDo. Hecho con JS. Se pueden agregar tareas, moverlas de columna y al finalizarlas esta la opcion de eliminarlas."/>
-                <ProyectContainer title="River Plate" img="riverplate"  text="Es una landing page acerca de el club el cual soy hincha, hecho con React. Tiene varias secciones como titulos o el cuerpo tecnico de la temporada actual."/>
-                <ProyectContainer title="Proximamente"  text="Proximamente..." img="logo"/>
+                <ProyectContainer title="Task ToDo" img="imgtasktodo" text="El objetivo es ayudar a organizar y priorizar tareas, gracias a esto nace Task toDo. Hecho con JS. Se pueden agregar tareas, moverlas de columna y al finalizarlas esta la opcion de eliminarlas."/>
+                <ProyectContainer title="River Plate" img="imgriverplate"  text="Es una landing page acerca de el club el cual soy hincha, hecho con React. Tiene varias secciones como titulos o el cuerpo tecnico de la temporada actual."/>
+                <ProyectContainer title="Proximamente"  text="Proximamente..." img="imglogo"/>
             </div>
         </span>
     
