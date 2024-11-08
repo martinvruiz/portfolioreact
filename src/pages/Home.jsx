@@ -11,8 +11,8 @@ export const Home = ()=>{
         })
 
 
-    return <section ref={ref} className={`pt-3 text-white bg-blue-900 flex flex-col items-center h-full font-poppins transition-opacity duration-1000 ${
-        inView ? "opacity-100" : "opacity-0"
+    return <section ref={ref} className={`pt-3 text-white flex flex-col items-center h-full font-poppins transition-all duration-1000 ${
+        inView ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-10"
     }`} >
         <span className=" flex flex-col items-center">
             <img src={logo} alt="logo" />
