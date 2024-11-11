@@ -8,7 +8,7 @@ export const Projects = ()=>{
 
     const {ref, inView} = useInView({
         triggerOnce : true,
-        threshold : 0.1
+        threshold : 0.3
     })
 
 
