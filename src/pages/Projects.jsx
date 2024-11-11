@@ -1,10 +1,10 @@
 import { ProyectContainer } from "./components/ProyectContainer/ProyectContainer"
 import { useInView } from "react-intersection-observer"
-import images from "../pages/data/images"
+import images from "./data/images"
 
 
 
-export const Proyects = ()=>{
+export const Projects = ()=>{
 
     const {ref, inView} = useInView({
         triggerOnce : true,
