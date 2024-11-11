@@ -16,9 +16,12 @@ export const Home = ()=>{
     }`} >
         <span className=" flex flex-col items-center">
             <img src={logo} alt="logo" />
-            <h2 className= 'text-xl lg:text-4xl my-2 p-1 border-b border-white'>Hola, Soy Martin Villalo Ruiz</h2>
+            <h2 className= 'text-xl lg:text-4xl flex flex-col items-center my-2 p-1 border-b border-white'>Me llamo Martin Villalo Ruiz, y soy <p className='text-orange-400'>
+                    FrontEnd Developer
+                </p>
+                </h2>
             <div className='my-4 w-3/4'>
-                <p className='lg:text-2xl text-center'>Me inicié en el Desarrollo Web en 2023, y desde entonces supe que era mi pasión. He dedicado mucho tiempo y esfuerzo para aprender. Mi objetivo es seguir progresando, aspiro a ser capaz de afrontar cualquier desafío y contribuir significativamente en este ámbito.</p>
+                <p className='lg:text-2xl text-center'>Me inicié en el Desarrollo Web en 2023. He dedicado mucho tiempo y esfuerzo para poder progresar en esta rama de la programacion. Mi objetivo es seguir aprendiendo, aspiro a ser capaz de afrontar cualquier desafío y contribuir significativamente en este ámbito.</p>
             </div>
         </span>
         <span className='my-10 border-4 rounded-xl w-2/3 flex flex-col items-center p-4'>
