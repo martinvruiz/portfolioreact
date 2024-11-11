@@ -12,8 +12,8 @@ export const Contact = ()=>{
     return <>
     
         <div>
-            <h4 className="text-white p-4 mt-4 text-center lg:text-3xl font-semibold">Formas de contacto</h4>
-            <span ref={ref} className={`flex flex-col items-center my-2 p-6 transition-all duration-1000 transform ${
+            <h4 className="text-white p-4 text-center lg:text-3xl font-semibold">Formas de contacto</h4>
+            <span ref={ref} className={`flex flex-col items-center p-6 transition-all duration-1000 transform ${
         inView ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-20'
       }`}>
 
