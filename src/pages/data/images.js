@@ -1,7 +1,7 @@
-import tasktodo from "../../images/proyects/tasktodo.jpg"
-import riverplate from "../../images/proyects/riverplate.png"
-import logo from "../../images/logo/LogoMVRT2-removebg-preview.png"
-import passcheck from "../../images/proyects/PassCheck.png"
+import tasktodo from "../../../public/images/proyects/tasktodo.jpg"
+import riverplate from "../../../public/images/proyects/riverplate.png"
+import logo from "../../../public/images/logo/LogoMVRT2-removebg-preview.png"
+import passcheck from "../../../public/images/proyects/PassCheck.png"
 
 
 
