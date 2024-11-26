@@ -1,7 +1,8 @@
-import logo from '../images/logo/LogoMVRT2-removebg-preview.png'
+
 import { ItemContainer } from './components/ItemContainer/ItemContainer'
 import { useInView } from 'react-intersection-observer'
 
+const logo = 'images/logo/LogoMVRT2-removebg-preview.png'
 
 export const Home = ()=>{
 
