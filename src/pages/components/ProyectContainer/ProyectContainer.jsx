@@ -8,7 +8,7 @@ export const ProyectContainer = ({img, text,title, link})=>{
             <h3 className="lg:text-2xl font-medium">{title}</h3>
             <span className="flex flex-col lg:flex-row justify-center items-center my-2 gap-2">
                 <a href={link} target="_blank" rel="noopener noreferrer" className="lg:w-80 h-40 border border-white">
-                <img src={img} alt={img} className="lg:w-full h-full"/></a>
+                <img src={img} alt={img} className="lg:w-full h-auto"/></a>
                 <p className="lg:w-2/5">
                     {text}
                 </p>
