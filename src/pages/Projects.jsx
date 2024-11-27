@@ -31,7 +31,11 @@ export const Projects = ()=>{
                 <ProyectContainer link="https://passcheck-one.vercel.app/" 
                 title="Password Check" 
                 img={images[3]}  
-                text="Esta app, hecha con React, sirve para que pruebes tus contraseñás para ver que tan seguras son. Al ingresar tu contraseña se van marcando las combinaciones en verde cuando las cumplas, mientras mas tengas mas segura es.."/>
+                text="Esta app, hecha con React, sirve para que pruebes tus contraseñás para ver que tan seguras son. Al ingresar tu contraseña se van marcando las combinaciones en verde cuando las cumplas, mientras mas tengas mas segura es."/>
+                                <ProyectContainer link="https://notebookmvr.vercel.app/" 
+                title="Notebook" 
+                img={images[4]}  
+                text="Soluciona la necesidad de guardar notas/recordatorio. Simplemente con ingresar el texto y darle a guardar, es como funciona esta app."/>
                 <ProyectContainer 
                 title="Proximamente"  
                 text="Proximamente..." 
