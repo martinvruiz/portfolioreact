@@ -7,7 +7,7 @@ import images from "./data/images"
 export const Projects = ()=>{
 
     const {ref, inView} = useInView({
-        triggerOnce : true,
+        triggerOnce : false,
         threshold : 0.3
     })
 
@@ -15,7 +15,7 @@ export const Projects = ()=>{
     return <>
     
         <span className="text-white text-center my-4">
-            <h3 className="lg:text-3xl font-semibold my-4">Mis proyectos</h3>
+            <h3 className="lg:text-3xl font-semibold mt-4">Mis proyectos</h3>
             <div ref={ref} className={`flex flex-col items-center transition-all duration-1000 transform ${
         inView ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'
         }`}>
