@@ -5,7 +5,7 @@ import { Projects } from './pages/Projects.jsx';
 import { Contact } from './pages/Contact.jsx';
 
 function App() {
-  return <div className=' min-h-screen bg-gradient-to-r from-blue-800 to-orange-400'>
+  return <div className=' min-h-screen bg-black text-white'>
     <BrowserRouter>
       <NavBar/>
         <Routes>

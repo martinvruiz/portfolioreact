@@ -23,27 +23,27 @@ export const Projects = ()=>{
                     link="https://tasktodo-d84gddque-martin-villalo-ruizs-projects.vercel.app/" 
                     title="Task ToDo" 
                     img={images[0]} 
-                    text="El objetivo es ayudar a organizar y priorizar tareas, gracias a esto nace Task toDo. Hecho con JS. Se pueden agregar tareas, moverlas de columna y al finalizarlas esta la opcion de eliminarlas."/>
+                    text="The goal of Task ToDo is to simplify task organization and prioritization. Built with JavaScript, it allows users to add tasks, move them between columns, and remove them upon completion, ensuring a streamlined workflow."/>
                 <ProyectContainer 
                     link="https://clubariverplate.netlify.app/" 
                     title="River Plate" 
                     img={images[1]}  
-                    text="Es una landing page acerca de el club el cual soy hincha, hecho con React. Tiene varias secciones como titulos o el cuerpo tecnico de la temporada actual."/>
+                    text="It's a landing page dedicated to River Plate, built with React. It includes various sections, such as the club's achievements and the current season's coaching staff."/>
                 <ProyectContainer 
                     link="https://passcheck-one.vercel.app/" 
                     title="Password Check" 
                     img={images[3]}  
-                    text="Esta app, hecha con React, sirve para que pruebes tus contraseñás para ver que tan seguras son. Al ingresar tu contraseña se van marcando las combinaciones en verde cuando las cumplas, mientras mas tengas mas segura es."/>
+                    text="This React app lets you test your passwords to assess their security. As you enter a password, the requirements turn green when met—the more you fulfill, the stronger your password."/>
                 <ProyectContainer 
                     link="https://notebookmvr.vercel.app/" 
                     title="Notebook" 
                     img={images[4]}  
-                    text="Soluciona la necesidad de guardar notas/recordatorio. Simplemente con ingresar el texto y darle a guardar, es como funciona esta app."/>
+                    text="is an app designed to help you take notes and set reminders. Just type your text and click save to easily store your notes."/>
                 <ProyectContainer 
                     link="https://financermvr.vercel.app" 
                     title="Financer" 
                     img={images[5]}  
-                    text="Maneja tus finanzas de la forma mas facil y precisa, tus gastos del dia a dia en una sola app. Con llenar el formulario se guardan automaticamente tus datos."/>
+                    text="Financer allows you to manage your finances with ease and precision, tracking your daily expenses all within a single app. Simply complete the form, and your data is automatically saved, making financial management effortless and streamlined."/>
                 <ProyectContainer 
                 title="Proximamente"  
                 text="Proximamente..." 
